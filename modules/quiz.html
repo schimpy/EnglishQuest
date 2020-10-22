@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/51e87ede39.js" crossorigin="anonymous"></script>
+    <title>English Quest Quiz</title>
+</head>
+<body>
+
+<div class="quiz-home-box custom-box">
+    <h4>You will have 15 seconds to answer each question.</h4>    
+    <button class="start-quiz-btn btn">Start the Quiz</button>
+</div>
+
+<div class="quiz-box custom-box">
+    <div class="stats">
+        <div class="quiz-time">
+            <div class="remaining-time"></div>
+            <span class="time-is-up">Time's up!</span>
+        </div>
+        <div class="score-board">
+            <span class="score-text">Score:</span>
+            <span class="score-value">0</span>
+        </div>
+    </div>
+
+    <div class="question-box">
+        <div class="question-number"></div>
+        <div class="question-text">
+           
+        </div>
+    </div>
+
+    <div class="option-box">
+    </div>
+
+    <div class="description">        
+    </div>
+
+    <div class="controls">
+        <button type="button" class="next-question-btn btn">Next Question</button>
+        <button type="button" class="see-result-btn btn">See Your Result</button>
+    </div>
+</div>
+
+<div class="quiz-over-box custom-box">
+    <h1>Quiz Result</h1>
+    <h4>Total Questions: <span class="total-questions"></span></h4>
+    <h4>Correct: <span class="total-correct"></span></h4>
+    <h4>Wrong: <span class="total-wrong"></span></h4>
+    <h4>Percentage: <span class="total-percentage"></span></h4>
+    <h3 class="total-evaluation"></h3>
+    <div class="rewards">
+        <h4>You have earned: </h4>
+        <div class="rewards-xp"></div>
+        <div class="rewards-coins"></div>
+    </div>
+    <button type="button" class="continue-btn btn">Continue</button>
+</div>
+
+    
+
+<script src="quiz.js"></script>
+</body>
+</html>

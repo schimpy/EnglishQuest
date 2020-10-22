@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.custom-box {
+    max-width: 800px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 50px 40px;
+    border-radius: 10px;
+}
+
+.drag-home-box {
+    display: none;
+}
+
+.drag-box {
+    display: block;
+}
+
+.drag-box .drag-source {
+    width: 700px;
+    height: 150px;
+}
+
+.drag-box .drag-source span {
+    padding: 10px;
+    margin: 10px;
+    background-color: tomato;
+    color: darkslategray;
+    font-weight: 800;
+    border: 2px solid darkred;
+    border-radius: 5px;
+}
+
+.drag-box .drag-target {
+    width: 700px;
+    height: 80px;
+    background-color: darksalmon;
+    border: 2px solid darkolivegreen;
+    border-radius: 15px;
+}
+
+.drag-over-box {
+    display: none;
+}

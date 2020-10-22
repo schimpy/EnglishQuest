@@ -1,0 +1,18 @@
+body {
+    margin: 0 auto;
+}
+
+.eq-title {
+    font-weight: bold;
+}
+
+.tab, .initial, .tourSlides {display: none;}
+
+@media (max-width: 600px) {
+
+    .eq-title {
+        font-size: 5px;
+        color: black;
+    }
+
+}
